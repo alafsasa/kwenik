@@ -1,9 +1,10 @@
 import './App.css';
+import { Login } from './Components/Accounts/Login';
 
 function App() {
   return (
     <div>
-      <h1>KWENIK</h1>
+      <Login/>
     </div>
   );
 }
