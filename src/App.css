@@ -7,3 +7,29 @@
   font-weight: bold;
   font-size: 26px;
 }
+
+.RegisterBody{
+  padding: 16px;
+  padding-top: 100px;
+}
+
+.RegisterBody h4{
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.KwenikLogoBody {
+  position: relative;
+}
+
+.KwenikLogoPosition {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.KwenikLogoPosition h3 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 56px;
+}
