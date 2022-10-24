@@ -1,10 +1,13 @@
 import './App.css';
-import { RegisterUser } from './Components/Accounts/RegisterUser';
+//import { Thanos } from './Thanos';
+//import Counter from './Components/Accounts/Test';
+//import { RegisterUser } from './Components/Accounts/RegisterUser';
+import Klass from './Klass';
 
 function App() {
   return (
     <div>
-      <RegisterUser/>
+      <Klass label='Count'/>
     </div>
   );
 }
