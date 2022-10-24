@@ -2,6 +2,7 @@ import React from 'react';
 
 type Props = {
     label: string;
+    initialCount: number;
 };
 
 type State = {
@@ -9,8 +10,11 @@ type State = {
 }
 
 export default class ClassCounter extends React.Component<Props, State>{
+    static defaultProps = {
+        initialCount: 0
+    }
     readonly state: State = {
-        count: 0
+        count: this.props.initialCount
     };
     handleIncrement = () => {
         this.setState({count: this.state.count + 1});
